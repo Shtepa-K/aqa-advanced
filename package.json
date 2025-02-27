@@ -1,0 +1,25 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shtepa-K/aqa-advanced.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "shtepa k.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shtepa-K/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/Shtepa-K/aqa-advanced#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
