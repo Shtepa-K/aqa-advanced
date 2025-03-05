@@ -1,0 +1,9 @@
+version: "3"
+services:
+  cypress:
+    image: cypress/included:latest
+    container_name: cypress_tests
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: ["cypress", "run"] # command: "cypress run"  gi
