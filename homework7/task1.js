@@ -14,4 +14,4 @@ function handleOdd() {
     console.log(text2)
 }
 
-console.log(handleNum(12, handleEven, handleOdd))
+handleNum(12, handleEven, handleOdd)
