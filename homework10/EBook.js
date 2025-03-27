@@ -20,8 +20,10 @@ get type() {
   }
   set type(value) {
     if (value === "") {
-      console.log("Пусте значення  форматі")
+      console.error("Пусте значення  форматі")
+      return
     }
+    
     this._type = value
   }
     printInfo() {

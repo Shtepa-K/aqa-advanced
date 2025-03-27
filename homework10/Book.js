@@ -9,7 +9,7 @@ class Book {
     return this._title
   } set title(value) {
     if (value === "") {
-      console.log("Пусте значення  назві")
+      console.error("Пусте значення  назві")
     }
     this._title = value
   }
@@ -18,7 +18,7 @@ class Book {
     return this._title
   } set author(value) {
     if (value === "") {
-      console.log("Пусте значення у автора")
+      console.error("Пусте значення у автора")
     }
     this._author = value
   }
@@ -27,7 +27,7 @@ class Book {
     return this._title
   } set year(value) {
     if (value === "") {
-      console.log("Пусте значення у року видання")
+      console.error("Пусте значення у року видання")
     }
     this._year = value
   }
