@@ -9,7 +9,7 @@ for (let i = 0; i < numbers.length; i++) {
     copyNumbers.push(numbers[i]+1)
    positiveCount = copyNumbers.filter((number) => number > 0)
    negativeCount = copyNumbers.filter((number) => number < 0)
-   zeroCount = copyNumbers.filter((number) => number = 0)
+   zeroCount = copyNumbers.filter((number) => number === 0)
     }
 
 
