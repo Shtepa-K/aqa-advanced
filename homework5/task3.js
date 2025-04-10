@@ -6,9 +6,8 @@ while (count <= 10) {
     count++;
 }
 
-
 let numb = 3
-let counter = 1
+let counter = 1; 
 for (; counter < 11; counter++) {
   let resulter = numb*counter
 console.log(`${ numb }  x  ${counter} =  ${resulter}`)

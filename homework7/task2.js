@@ -1,3 +1,4 @@
+// рекурсивно викликана функцію зі зменшеним значенням 
 function Numbers(num) {
         console.log(num)    
         
